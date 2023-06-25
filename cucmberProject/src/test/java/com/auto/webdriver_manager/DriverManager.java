@@ -29,6 +29,7 @@ public class DriverManager {
 				setDriver(new ChromeDriver());
 				break;
 			case "firefox":
+				//ignore for 
 //				System.setProperty(Constants.FIREFOX_DRIVER,Constants.FIREFOX_DRIVER);
 				WebDriverManager.firefoxdriver().setup();
 				setDriver(new ChromeDriver());
